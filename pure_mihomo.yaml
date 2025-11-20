@@ -16,7 +16,7 @@ tcp-concurrent: true
 external-controller: 127.0.0.1:9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
-secret: "" # webui密码
+secret: "szmxyzh" # webui密码
 
 geodata-mode: true
 geox-url:
@@ -44,6 +44,7 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
+    - "+.captive.apple.com"
     - "+.cuhk.edu.cn"
     - "*.lan"
     - "*.local"
@@ -110,7 +111,6 @@ proxy-groups:
   - { name: 📟 电报消息, <<: *a3 }
   - { name: 🐦 推特服务, <<: *a3 }
   - { name: 🎮 游戏平台, <<: *a3 }
-  - { name: 🆎 AdBlock, type: select, proxies: [REJECT] }
   - { name: 🐟 兜底分流, <<: *a3 }
   - { name: "🎓 校内专线", type: select, proxies: [🏫 cuhksz, DIRECT] }
 
@@ -123,7 +123,6 @@ proxy-groups:
 
 # 分流规则
 rule-providers:
-  Ad: { <<: *a5, url: https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs, path: ./ruleset/anti-ad-clash.yaml }
   Ai: { <<: *a6, url: https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml, path: ./ruleset/Ai.yaml }
   Spotify: { <<: *a6, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml, path: ./ruleset/Spotify.yaml }
   Adobe: { <<: *a6, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Adobe/Adobe.yaml, path: ./ruleset/Adobe.yaml }
@@ -149,7 +148,6 @@ rules:
   - DOMAIN-SUFFIX,vpn.cuhk.edu.cn,DIRECT
   - RULE-SET,School,🎓 校内专线
   - RULE-SET,Journal,🎓 校内专线
-  - RULE-SET,Ad,🆎 AdBlock
   - RULE-SET,Ai,🤖 Ai
   - RULE-SET,Spotify,🎵 Spotify
   - RULE-SET,Adobe,🎨 Adobe
@@ -168,3 +166,4 @@ rules:
   - RULE-SET,ChinaIP,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,🐟 兜底分流
+
