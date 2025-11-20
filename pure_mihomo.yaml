@@ -16,7 +16,7 @@ tcp-concurrent: true
 external-controller: 127.0.0.1:9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
-secret: "szmxyzh" # webui密码
+secret: "" # webui密码
 
 geodata-mode: true
 geox-url:
