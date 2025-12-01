@@ -100,3 +100,8 @@ payload:
   - DOMAIN-SUFFIX,elsevier.fr
   - DOMAIN-SUFFIX,elsevier.de
   - DOMAIN-SUFFIX,insights.ceicdata.com.cn
+  - DOMAIN-SUFFIX,ieeexplore.ieee.org
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,iee.org
+  - DOMAIN-SUFFIX,computer.org
+  - DOMAIN-SUFFIX,ieecomputersociety.org
