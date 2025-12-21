@@ -9,7 +9,7 @@ MIHOMO_PROXY_ON="🏫 cuhksz"
 MIHOMO_PROXY_OFF="DIRECT"
 
 # VPN 配置（仅需修改 VPN_PASSWORD）
-VPN_USER="liuxingchen"
+VPN_USER=""  # <-- 在这里填入你的实际用户名
 VPN_PASSWORD=""  # <-- 在这里填入你的实际密码
 VPN_GROUP="CUHK(SZ)"
 VPN_GATEWAY="vpn.cuhk.edu.cn"
