@@ -8,10 +8,12 @@ payload:
   - DOMAIN-SUFFIX,springer.com
   - DOMAIN-SUFFIX,springernature.com
   - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,scienceconnect.io
   - DOMAIN-SUFFIX,tandfonline.com
   - DOMAIN-SUFFIX,sciencedirect.com
   - DOMAIN-SUFFIX,jstor.org
   - DOMAIN-SUFFIX,oup.com
+  - DOMAIN-SUFFIX,silverchair-cdn.com
   - DOMAIN-SUFFIX,cambridge.org
   - DOMAIN-SUFFIX,sagepub.com
   - DOMAIN-SUFFIX,mdpi.com
@@ -38,6 +40,14 @@ payload:
   - DOMAIN-SUFFIX,medrxiv.org
   - DOMAIN-SUFFIX,researchsquare.com
   - DOMAIN-SUFFIX,scitation.org
+  - DOMAIN-SUFFIX,aip.org
+  - DOMAIN-SUFFIX,aps.org
+  - DOMAIN-SUFFIX,iop.org
+  - DOMAIN-SUFFIX,siam.org
+  - DOMAIN-SUFFIX,worldscientific.com
+  - DOMAIN-SUFFIX,projecteuclid.org
+  - DOMAIN-SUFFIX,ascelibrary.org
+  - DOMAIN-SUFFIX,asme.org
   - DOMAIN-SUFFIX,intechopen.com
   - DOMAIN-SUFFIX,degruyter.com
   - DOMAIN-SUFFIX,wiley-vch.de
@@ -48,35 +58,33 @@ payload:
   - DOMAIN-SUFFIX,bloodjournal.org
   - DOMAIN-SUFFIX,aacrjournals.org
   - DOMAIN-SUFFIX,ashpublications.org
+  - DOMAIN-SUFFIX,aasldjournals.org
   - DOMAIN-SUFFIX,bmj.com
   - DOMAIN-SUFFIX,thelancet.com
   - DOMAIN-SUFFIX,nejm.org
   - DOMAIN-SUFFIX,nature-asia.com
   - DOMAIN-SUFFIX,naturechina.com
-  - DOMAIN-SUFFIX,thelancet.com
   - DOMAIN-SUFFIX,jamanetwork.com
   - DOMAIN-SUFFIX,science.org
   - DOMAIN-SUFFIX,ascopubs.org
-  - DOMAIN-SUFFIX,journals.plos.org
-  - DOMAIN-SUFFIX,onlinelibrary.wiley.com
   - DOMAIN-SUFFIX,jbc.org
-  - DOMAIN-SUFFIX,mcb.asm.org
   - DOMAIN-SUFFIX,molbiolcell.org
-  - DOMAIN-SUFFIX,genesdev.cshlp.org
+  - DOMAIN-SUFFIX,cshlp.org
   - DOMAIN-SUFFIX,genome.org
   - DOMAIN-SUFFIX,plantcell.org
   - DOMAIN-SUFFIX,plantphysiol.org
   - DOMAIN-SUFFIX,jimmunol.org
-  - DOMAIN-SUFFIX,cancerres.aacrjournals.org
   - DOMAIN-SUFFIX,clinchem.org
   - DOMAIN-SUFFIX,diabetesjournals.org
-  - DOMAIN-SUFFIX,circ.ahajournals.org
   - DOMAIN-SUFFIX,ahajournals.org
+  - DOMAIN-SUFFIX,physiology.org
+  - DOMAIN-SUFFIX,aspetjournals.org
+  - DOMAIN-SUFFIX,liebertpub.com
+  - DOMAIN-SUFFIX,rupress.org
   - DOMAIN-SUFFIX,jacc.org
   - DOMAIN-SUFFIX,annals.org
   - DOMAIN-SUFFIX,acpjournals.org
   - DOMAIN-SUFFIX,gastrojournal.org
-  - DOMAIN-SUFFIX,hepatology.aasldjournals.org
   - DOMAIN-SUFFIX,kidney-international.org
   - DOMAIN-SUFFIX,ajkd.org
   - DOMAIN-SUFFIX,psychosomaticmedicine.org
@@ -99,9 +107,6 @@ payload:
   - DOMAIN-SUFFIX,elsevier.nl
   - DOMAIN-SUFFIX,elsevier.fr
   - DOMAIN-SUFFIX,elsevier.de
-  - DOMAIN-SUFFIX,insights.ceicdata.com.cn
-  - DOMAIN-SUFFIX,ieeexplore.ieee.org
   - DOMAIN-SUFFIX,ieee.org
-  - DOMAIN-SUFFIX,iee.org
   - DOMAIN-SUFFIX,computer.org
   - DOMAIN-SUFFIX,ieecomputersociety.org
